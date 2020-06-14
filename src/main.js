@@ -5,10 +5,16 @@ import App from './App.vue'
 import router from './routes'
 import store from './store'
 
-import Vuelidate from 'vuelidate'
+
+// import Vuelidate from 'vuelidate'
+//
+// // Plugins
+// Vue.use(Vuelidate)
 
 // Plugins
-Vue.use(Vuelidate)
+import VueCarousel from 'vue-carousel'
+Vue.use(VueCarousel)
+
 
 import './assets/scss/main.scss'
 
